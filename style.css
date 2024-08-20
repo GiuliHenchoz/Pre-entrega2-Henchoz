@@ -1,0 +1,156 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(168, 146, 146, 0.801);
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+   max-width: 100%;
+}
+
+.conteiner {
+           max-width: 1200px;
+           margin: 0 auto;
+}
+
+.header{
+    background-position: center center;
+    background-size: cover;
+  
+}
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+.imgopacidad{
+    margin-top: -250px;
+}
+
+.imgopacidad2{
+    background-image: url(imagenes/cafeopacidad.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}   
+   
+.cafe2{
+    background-image: url(imagenes/cafe2.jpg);
+    margin-top: -10300px;
+    margin-left: 650px;
+}
+
+.granos{
+    background-image: url(imagenes/cafegranos.jpeg);
+    margin-top: -12000px;
+    margin-left: 280px;
+}
+
+.navbar a {
+    position: relative;
+    float: left;
+
+    font-size: 18px;
+    padding: 65px;
+    color: rgb(50, 51, 51);
+    font-weight: 600;
+    display: block;
+}
+
+.header-txt1{
+    text-align: left;
+    margin-top: -1005px;
+    margin-left: -70px;
+
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(63, 13, 26);
+    font-weight: 570;
+    display: block;
+    
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.header-txt2{
+    text-align: center;
+    margin-top: -650px;
+    margin-left: -200px;
+
+    position: relative;
+    float: left;
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(63, 13, 26);
+    font-weight: 600;
+    display: block;
+
+}
+
+.navbar a:hover{
+    color: darkred;
+}
+
+.header-content{
+    display: flex;
+
+    flex-basis: 50%;
+}
+
+.butons{
+    display: flex;
+  
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 25px;
+    color: rgb(17, 17, 17);
+}
+
+.btn-1:hover{
+    background-color: rgb(233, 56, 56);
+}
+
+.mt-3{
+    color: rgb(48, 7, 7);
+
+}
+
+.opacidad12{
+    margin-top: -250px;
+}
+
+
+.opacidad12{
+    background-image: url(imagenes/cafegrupo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}   
+
+
+.contacto-txt1{
+    
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(168, 146, 146, 0.801);
+}
+
